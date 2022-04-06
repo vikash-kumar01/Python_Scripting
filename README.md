@@ -18,6 +18,8 @@
     os.remove("/home/repl/testdir/demo.txt")  # Removes the file
 
     os.path.join("D:\\home\\repl\\testdir","D:\\home\\repl\\testdir\\demo.txt")  # Joins the path (o/p /home/repl/testdir/demo.txt)
+    
+    os.path.split("D:\\home\\repl\\testdir")  #Splits the path and File (O/p : D:\\home\\repl\\testdir "demo")
 
-
+    print(os.path.exists("D:\\home\\repl\\testdir")) # Return True/ False if path Exists
 
