@@ -65,3 +65,56 @@
     now = datetime.datetime.today()
     other = datetime.datetime(1994,10,10,17,59)
     print(now-other)
+
+
+## JSON MODULE
+
+    Popular in Communicating between Web Servers and Clients + Converts python objects to serialize representations(JSON OBJECTS) 
+    
+    
+    
+    import json
+Employees_data= '''
+{
+"Employees" : [
+{
+"userId":"rirani",
+"jobTitleName":"Developer",
+"firstName":"Romin",
+"lastName":"Irani",
+"preferredFullName":"Romin Irani",
+"employeeCode":"E1",
+"region":"CA",
+"phoneNumber":"408-1234567",
+"emailAddress":"romin.k.irani@gmail.com"
+},
+{
+"userId":"nirani",
+"jobTitleName":"Developer",
+"firstName":"Neil",
+"lastName":"Irani",
+"preferredFullName":"Neil Irani",
+"employeeCode":"E2",
+"region":"CA",
+"phoneNumber":"408-1111111",
+"emailAddress":"neilrirani@gmail.com"
+},
+{
+"userId":"thanks",
+"jobTitleName":"Program Directory",
+"firstName":"Tom",
+"lastName":"Hanks",
+"preferredFullName":"Tom Hanks",
+"employeeCode":"E3",
+"region":"CA",
+"phoneNumber":"408-2222222",
+"emailAddress":"tomhanks@gmail.com"
+}
+]
+}
+'''
+print(Employees_data)
+
+#Conversion 
+data= json.loads(Employees_data)
+print(data)
