@@ -45,3 +45,14 @@
 # RANDOM MODULE
 
     Used to generate Random numbers 
+    
+    
+    import random
+
+    print(random.randrange(50))        # Print Random number <=50
+    print(random.randrange(10,50))     # Print random number between a range
+    print(random.randrange(10,50,10))  # Print random number between a range and step size of 10 ( 10,20,20)
+    print(random.randint(0,20))        # print random int number between a range 
+
+
+## DATETIME MODULE
