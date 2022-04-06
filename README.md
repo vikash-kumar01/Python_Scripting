@@ -26,5 +26,7 @@
     
 ## SUBPROCESS MODULE
 
-    Module Le's you interact with OS + Create New Processes + Pass Info Into or Out Of it + get return Codes
+    Module Let's you interact with OS + Create New Processes + Pass Info Into or Out Of it + get return Codes
 
+
+## MATH MODULE
