@@ -26,5 +26,5 @@
     
 ## SUBPROCESS MODULE
 
-   # Module Le's you interact with OS 
+    Module Le's you interact with OS + Create New Processes + Pass Info Into or Out Of it + get return Codes
 
