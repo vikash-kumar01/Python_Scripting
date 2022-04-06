@@ -30,3 +30,18 @@
 
 
 ## MATH MODULE
+   
+    import math
+
+    print(math.pi)
+    print(math.e)
+    print(math.degrees(0.1))
+    print(math.asin(0.5))   # a because we want values in radian
+    print(math.acos(0.5))
+    print(math.exp(2))
+    print(math.log(10,10))  #log10 base 10
+    
+    
+# RANDOM MODULE
+
+    Used to generate Random numbers 
