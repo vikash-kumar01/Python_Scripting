@@ -62,6 +62,6 @@
     print(datetime.date.today())  # Displays the Current date
 
     # ARITHEMETIC FUNCTION OF DATETIME OBJECT (Attributes are Days, seconds and microseconds)
-    now = datetime.date.today()
+    now = datetime.datetime.today()
     other = datetime.datetime(1994,10,10,17,59)
-    print(other)
+    print(now-other)
