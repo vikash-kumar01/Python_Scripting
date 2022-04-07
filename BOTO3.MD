@@ -20,3 +20,16 @@
 #### Print Bucket name Only
      for bucket  in list_buckets["Buckets"]:
            print(bucket["Name"])
+           
+           
+### CREATE BUCKET 
+  
+    import boto3
+    s3 = boto3.client('s3')
+    bucket = s3.create_bucket(
+    Bucket='myuniquebucket12324561',
+    CreateBucketConfiguration={
+        'LocationConstraint': 'us-east-2'
+    }
+    )
+    print(bucket)
