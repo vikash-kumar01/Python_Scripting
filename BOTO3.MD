@@ -33,3 +33,23 @@
     }
     )
     print(bucket)
+    
+ ### CREATE BUCKET   
+    import boto3
+    s3 = boto3.resource('s3')
+    bucket_name = 'myuniquebucket12324561'
+    response = s3.Bucket(bucket_name).upload_file('C://Users//vikas//PycharmProjects//pythonProject//main.py', 'main.py')
+    print(response)
+    #DELETE BUCKET FILE
+    s3.Object(bucket_name,'main.py').delete()
+     
+     
+### DELETE BUCKET 
+
+    import boto3
+    s3 = boto3.client('s3')
+    bucket_name = 'myuniquebucket12324561'
+    response = s3.delete_bucket(
+    Bucket=bucket_name
+    )
+    print(response)
